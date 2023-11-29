@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", "Poppins", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#topbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding-block: 10px;
+  position: fixed;
+  border-block-end: 1px solid rgb(197, 170, 17);
+  z-index: 99;
+  align-items: center;
+  justify-content: center;
+  gap: 15vh;
+  font-size: small;
+  white-space: nowrap;
+}
+
+#nav {
+  height: 145px;
+  width: 100%;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  align-items: center;
+  /* padding: 0 150px; */
+  padding-top: 30px;
+  gap: 50px;
+  position: fixed;
+  justify-content: center;
+  z-index: 98;
+  white-space: nowrap;
+}
+
+#nav #button-sign-in {
+  padding: 10px 30px;
+  color: black;
+  background-color: rgb(230, 203, 51);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#nav button {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#topbar .nav_logo {
+  height: 13px;
+  margin-right: 5px;
+}
+
+#topbar .nav_links {
+  /* text-decoration: none; */
+  color: #fff;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 1.5em;
+}
+
+.menu {
+font-family: sans-serif;
+font-size: 14px;
+padding-top: 150px;
+}
+
+.menu-group-heading {
+margin: 0;
+padding-bottom: 1em;
+border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+display: grid;
+grid-template-columns: 1fr;
+gap: 1.5em;
+padding: 1.5em 0;
+}
+
+.menu-item {
+display: flex;
+}
+
+.menu-item-img {
+width: 80px;
+height: 80px;
+flex-shrink: 0;
+object-fit: cover;
+margin-right: 1.5em;
+}
+
+.menu-item-text {
+flex-grow: 1;
+}
+
+.menu-item-heading {
+display: flex;
+justify-content: space-between;
+margin: 0;
+}
+
+.menu-item-name {
+margin-right: 1.5em;
+}
+
+.menu-item-desc {
+line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+.menu {
+    font-size: 16px;
+}
+
+.menu-group {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-item-img {
+    width: 125px;
+    height: 125px;
+}
+}
+
+/* Footer */
+
+.footer {
+background-color: black;
+opacity: 90%;
+text-align: center;
+padding-top: 50px;
+color: #fff;
+}
+  
+.footer p {
+    padding-top: 30px;
+}
+  
+.footer a {
+    color: #fff;
+}
+  
+.footer form {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+  
+.footer .text {
+    height: 60px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+  
+.footer .submit {
+    height: 60px; 
+    /* color: black; */
+    text-align: center;
+}
+  
