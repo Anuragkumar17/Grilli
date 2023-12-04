@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  
+  #topbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding-block: 10px;
+    position: fixed;
+    border-block-end: 1px solid rgb(197, 170, 17);
+    z-index: 99;
+    align-items: center;
+    justify-content: center;
+    gap: 15vh;
+    font-size: small;
+    white-space: nowrap;
+  }
+  
+  #nav {
+    height: 145px;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    gap: 50px;
+    position: fixed;
+    justify-content: center;
+    z-index: 98;
+    white-space: nowrap;
+  }
+  
+  #nav #button-sign-in {
+    padding: 10px 30px;
+    color: black;
+    background-color: rgb(230, 203, 51);
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  #topbar .nav_logo {
+    height: 13px;
+    margin-right: 5px;
+  }
+  
+  #topbar .nav_links {
+    color: #fff;
+  }
+  
+  .background {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%
+  }
+
+  /* Our Story */
+
+.about-us {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 78px 0px;
+    background-color: black;
+    background-image: url(assets/images/shape-2.png);
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+  
+  .about-us h6 {
+    color: rgb(163, 141, 12);
+    font-size: 16px;
+    font-weight: 0;
+    margin-bottom: 40px;
+  }
+  
+  .about-us h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  
+  }
+  
+  .about-us p {
+    font-size: 20px;
+  }
+
+  .about-us img {
+    margin-top: 100px;
+    height: 300px;
+  }
+
+  /* Footer */
+
+.footer {
+    background-color: black;
+    background-image: url(assets/images/shape-1.png);
+    opacity: 90%;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+  }
+  
+  .footer p {
+    padding-top: 30px;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  
+  .footer form {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .footer .text {
+    height: 60px;
+    width: 300px;
+    color: black;
+    text-align: center;
+  }
+  
+  .footer .submit {
+    height: 60px; 
+    color: black;
+    text-align: center;
+  }
+  
