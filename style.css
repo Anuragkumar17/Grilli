@@ -48,7 +48,7 @@ html, body {
 #nav #button-sign-in {
   padding: 10px 30px;
   color: black;
-  background-color: rgb(230, 203, 51);
+  background-color: #f2c07f;
   border: none;
   cursor: pointer;
   font-size: 14px;
@@ -73,6 +73,31 @@ html, body {
 }
 
 /* Hero Section */
+
+#hero-button img{
+  position: fixed;
+  bottom: 15px;
+  right: 6px;
+  background-color: #f2c07f;
+  z-index: 3;
+  width: 110px;
+  height: 110px;
+  padding: 12px;
+  scale: 0.55;
+}
+
+#hero-button #hero-button-text{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 2;
+  background-color: #f2c07f;
+  padding: 5px;
+  padding-top: 70px;
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+}
 
 .hero-content {
   align-items: center;
