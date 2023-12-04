@@ -15,6 +15,15 @@ body {
     background-position: center;
 }
 
+.logo{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 85px;
+    margin-bottom: 30px;
+}
+
 .wrapper {
     width: 420px;
     background: transparent;
@@ -109,6 +118,12 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+}
+
+h6{
+    padding-top: 20px;
+    font-size: x-small;
+    color: blue
 }
 
 .register-link p a:hover {
