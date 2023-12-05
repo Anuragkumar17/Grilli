@@ -37,12 +37,7 @@
       <button><a href="menu.html"><h5>VIEW OUR MENU</h5></a></button>
     </div>  
   </section>
-
-<a id="hero-button" href="#">
-  <img src="assets/images/hero-icon.png" alt="booking icon">
-  <p id="hero-button-text">BOOK A TABLE</p>
-</a>
-        
+     
 <!-- Services -->
   <section class="services">
     <h6>Majestic Table Service</h6>
@@ -79,7 +74,7 @@
       </p>
     </div>
   </section>
-
+<!-- Footer -->
   <section class="footer">
     <a href="index.html"><img src="assets/images/logo.svg" alt="grilli-logo"><a>
     <div id="footer-address">
@@ -95,6 +90,44 @@
       <input class="text" placeholder="Enter email address">
       <input class="submit" name="" value="Send">
     </form>
+  </section>
+
+      <!-- Reservation button -->
+  <section>
+    <div id="hero-button">
+      <button class="open-button" onclick="openForm()">
+        <img src="assets/images/hero-icon.png" alt="booking icon">
+        <p id="hero-button-text">BOOK A TABLE</p>
+      </button>
+    </div>
+
+    <div class="form-popup" id="myForm">
+      <form action="" class="form-container">
+        <h1>BOOK A TABLE</h1>
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+
+        <label for="tel"><b>Phone Number</b></label>
+        <input type="tel" placeholder="Enter Number" name="num " required>
+
+        <label for="date"><b>Venue</b></label>
+        <input type="date" name="date " required>
+
+        <button type="submit" class="btn">Request a call</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+
+    <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
   </section>
 </body>
 </html>
